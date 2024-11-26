@@ -1,0 +1,74 @@
+.contact {
+    .name {
+        font-size: 2.4rem;
+        color: #212121;
+        position: relative;
+        &:after {
+            content: url(../images/titleleft-dark.png);
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+        }
+    }
+    &-right {
+        margin-left: 9px;
+        .logo {
+            &-main {
+                margin-left: 17px;
+            }
+            &-name {
+                left: 20%;
+            }
+            &-year {
+                left: 21%;
+            }
+            &-img {
+                left: 22%;
+            }
+        }
+        .info {
+            &-item {
+                color: #666666;
+                font-size: 1.404rem;
+                font-family: Arial;
+            }
+        }
+    }
+    form {
+        label {
+            padding-top: 0;
+            color: #666666;
+            font-size: 1.4rem;
+            font-family: Arial;
+            position: relative;
+        }
+        textarea {
+            height: 158px;
+            margin-bottom: 38px;
+        }
+        button {
+            width: 79px;
+            height: 38px;
+            font-size: 1.6rem;
+        }
+        
+    }
+    &-social {
+        font-size: 1.8rem;
+        font-family: Arial;
+        color: #666666;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        &-icon {
+            li {
+                display: inline-block;
+                i {
+                    color: #888888;
+                    margin-right: 10px;
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+}
+

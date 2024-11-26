@@ -1,0 +1,60 @@
+// Bootstrap Variables
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1170px,
+) !default;
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * 2,
+  3: $spacer * 1,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+  9: $spacer * 7,
+  10: $spacer * 8,
+  11: $spacer * 9,
+  12: $spacer *10,
+  50: $spacer * 50,
+) !default;
+
+$enable-negative-margins:     true !default;
+
+
+
+$utilities: () !default;
+$utilities: map-merge((
+  "w": (
+      property: width,
+      class: w,
+      values: (
+        20:20%,
+        40:40%,
+      )
+    ),
+), $utilities);
+
+
+$carousel-indicator-width:           6px !default;
+$carousel-indicator-height:          6px !default;
+$carousel-indicator-hit-area-height: 10px !default;
+$carousel-indicator-spacer:          3px !default;
+$carousel-indicator-opacity:         .5 !default;
+$carousel-indicator-active-opacity:  1 !default;
+$carousel-indicator-transition:      opacity .6s ease !default;
+
+// $nav-link-font-size:                16px !default;
+$nav-link-hover-color:              #e6ae48 !default;
+$nav-pills-link-active-bg:          #e6ae48 !default;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+

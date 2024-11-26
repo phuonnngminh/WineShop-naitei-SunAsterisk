@@ -1,0 +1,28 @@
+.form-login {
+    form {
+        color: $black;
+    }
+    .form-wrapper {
+        padding: 46px 53px;
+        border: 1px solid #e7e7e7;
+        h3 {
+            font-size: 1.8rem;
+        }
+        .signInbtn {
+            width: 100px;
+            height: 26px;
+        }
+        .desc {
+            font-size: 1.4em;
+            font-family: $form-font;
+            font-weight: 500;
+        }
+        label {
+            font-family: $form-font;
+            font-size: 1.4rem;
+        }
+        .form-control {
+            height: 31px;
+        }
+    }
+}

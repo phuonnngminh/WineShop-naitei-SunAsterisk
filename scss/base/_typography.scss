@@ -1,0 +1,22 @@
+body {
+    font-family: $primary-font;
+    color: $white;
+    line-height: 1;
+    font-size: 1.2rem;
+}
+html {
+    font-size: 62.5%;
+}
+
+.heading-primary--main {
+    font-family: $secondary-font;
+    font-size: 38.5rem;
+    color: $heading-color;
+}
+
+.heading-primary--sub {
+    font-family: $third-font;
+    font-size: 9.8rem;
+    
+}
+    

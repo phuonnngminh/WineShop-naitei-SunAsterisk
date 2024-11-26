@@ -1,0 +1,18 @@
+.about {
+    // background: url(../images/Layer\ 1.png) no-repeat center /cover;
+    &-image-left {
+
+        top: 0;
+        left: -40px;
+    }
+    &-image-right {
+        top: 0;
+        right: 0;
+        width: 180px;
+        height: 220px;
+        object-fit: cover;
+        object-position: -30% 40%;
+    }
+
+    
+}

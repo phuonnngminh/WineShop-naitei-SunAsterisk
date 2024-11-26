@@ -1,0 +1,30 @@
+.about {
+    .name {
+        font-size: 2.4rem;
+        color: #212121;
+        position: relative;
+        &:after {
+            content: url(../images/titleleft-dark.png);
+            position: absolute;
+            bottom: -30px;
+            left: 0;
+        }
+    }
+    &-image {
+        width: 458px;
+        height: 304px;
+    }
+    &-title {
+        color: $title-color;
+        font-size: 2.4rem;
+        margin-bottom: 20px;
+    }
+    &-content {
+        width: calc(100% - 458px);
+        padding-left: 30px;
+    }
+    &-desc {
+        font-size: 1.4em;
+        color: $text-color;
+    }
+}

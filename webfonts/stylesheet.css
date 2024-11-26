@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'UTM Caviar';
+    src: url('webfonts/UTMCaviar.woff2') format('woff2'),
+        url('webfonts/UTMCaviar.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}

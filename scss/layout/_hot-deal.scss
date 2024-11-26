@@ -1,0 +1,102 @@
+.hot-deal {
+    &-wrapper {
+        background: url(../images/wine-63931_12802-1240x829.jpg) no-repeat center/cover;
+        height: 71.5rem;
+    }
+    &-wp {
+        height: 57rem;
+        width: 94.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(60%);
+        @media (min-width: 992px) {
+            width: 80rem;
+        }
+
+    }
+    &-thumbnail {
+        width: 46rem;
+        height: 57rem;
+        transform: translate(21%,17%);
+        @media (min-width: 992px) {
+            width: 40rem;
+        }
+        &:before {
+            content: url(../images/sale.png);
+            border-bottom-left-radius: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 125px;
+            height: 110px;
+            line-height: 110px;
+            text-align: center;
+
+        }
+        &:after {
+            content: url(../images/line.png);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 30px;
+        }
+        .discount {
+            font-size: 3.1rem;
+            top: 20px;
+            left: 10px;
+            transform: rotate(-45deg);
+        }
+        .fit-image {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    &-content {
+        .name {
+            font-size: 2.5rem;
+            position: relative;
+            &:after {
+                content: url(../images/titleleft-dark.png);
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .price {
+            font-size: 3.4rem;
+            color: $primary-color;
+            font-family: 'UTM Caviar';
+        }
+        .desc {
+            color: $desc-color;
+            font-size: 1.3rem;
+        }
+        padding: 8.9rem 10rem 8.9rem 11rem;
+        @media (min-width: 992px) {
+            padding: 8.9rem 12rem 8.9rem 2rem;
+        }
+        .countdown-area {
+            bottom: -16px;
+            .countdown-wrapper {
+                display: grid;
+                grid-template-columns: repeat(2,1fr);
+                .single-countdown {
+                    width: 131px;
+                    height: 88px;
+                    border: 1px solid $primary-color;
+                    &-time {
+                        font-family: 'UTM Caviar';
+                        font-size: 3.4rem;
+                        color: $primary-color;
+
+                    }
+                    &-text {
+                        text-transform: uppercase;
+                        font-size: 1.4rem;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

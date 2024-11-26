@@ -1,0 +1,76 @@
+.footer {
+    margin-top: 60px;
+    .single-footer-widget {
+        .widget-title {
+            font-size: 1.8em;
+            color: $black;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 18px;
+        }
+        .widget-body {
+            .widget-social {
+                margin-top: 25px;
+                a {
+                    margin-right: 12px;
+                    i {
+                        color: $social-icon-color;
+                        &:hover {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            
+            }
+            .desc-content {
+                color: $text-color;
+                font-size: 1.4rem;
+                margin-bottom: 20px;
+            }
+            .newsletter-btn {
+                position: absolute;
+                background: #f6ab49;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                color: #fff;
+                font-weight: 700;
+                border-radius: 50px;
+                right: 5px;
+                line-height: 35px;
+                border: none;
+                padding: 0 15px;
+                text-transform: uppercase;
+            }
+        }
+        .widget-list {
+            a {
+                font-size: 1.2rem;
+                color: $text-color;
+                text-transform: uppercase;
+                line-height: 1.7;
+            }
+            i {
+                color: $about-icon-color;
+            }
+        }
+    }
+    .footer-bottom {
+        .copyright-content {
+            p {
+                color:$text-color;
+                font-size: 1.2rem;
+            }
+        }
+        .payment {
+            a {
+                width: 290px;
+                margin: 0 0 0 auto;
+                display: block;
+                .fit-image {
+                    height: 30px;
+                }
+            }
+        }
+    }
+}

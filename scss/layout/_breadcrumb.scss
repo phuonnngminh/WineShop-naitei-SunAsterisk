@@ -1,0 +1,49 @@
+.breadcrumb-area {
+    .navigation {
+        &-right {
+            .navigate-reg {
+                width: 164px;
+                height: 45px;
+                font-size: 1.4em;
+            }
+            
+        }
+        &-left {
+            .name {
+                font-size: 2.4rem;
+                position: relative;
+                &:after {
+                        content: url(../images/titleleft-dark.png);
+                        position: absolute;
+                        bottom: -30px;
+                        left: 0;
+                    }
+            }
+        }
+    }
+    .breadcrumb-content {
+        li {
+            margin-right: 7px;
+            &:last-child {
+                a {
+                    &:after {
+                        content: none;
+                    }
+                }
+            }
+            
+        }
+        .active {
+            color: $primary-color;
+        }
+        a {
+            font-size: 1.4rem;
+            color: $text-color;
+            &:after {
+                position: absolute;
+                content: "/";
+                right: -6px;
+            }
+        }
+    }
+}

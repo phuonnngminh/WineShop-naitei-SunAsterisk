@@ -1,0 +1,77 @@
+.blog-list {
+    .blog-item {
+        .blog-image {
+            width: 360px;
+            height: 220px;
+        }
+        .blog-content {
+            .blog-title {
+                margin-top: 26px;
+                color: $title-color;
+                font-size: 1.8rem;
+            }
+            .blog-meta {
+                margin: 13px 0;
+                color: $subtitle-color;
+                font-size: 1.2rem;
+            }
+            .blog-desc {
+                color: $text-color;
+                font-size: 1.4rem;
+            }
+        
+        }
+    }
+}
+
+.reviewer {
+    .carousel-indicators {
+        button {
+            background-color: $primary-color;
+            border-radius: 50%;
+        }
+    }
+    &-wp {
+        &:after {
+            content: url(../../images/icon-quote-light.png);
+            position: absolute;
+            top: 31px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+    }
+    &-desc {
+        font-size: 1.4rem;
+        padding-left: 24px;
+        text-align: center;
+        margin-top: 27px;
+        color: $text-color;
+    }
+    &-media {
+        margin-top: 28px;
+    }
+    &-avatar {
+        width: 102px;
+        height: 102px;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        object-position: 0% 0%;
+    }
+    &-name {
+        margin-top: 20px;
+        font-size: 1.4rem;
+        color: $title-color;
+        span {
+            text-transform: none;
+            font-style: italic;
+            font-size: 1.2rem;
+            color: $span-color;
+        }
+    }
+}
+
+.carousel-indicators {
+    bottom: -69px;
+}
