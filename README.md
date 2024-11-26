@@ -34,10 +34,8 @@ To run the app, you'll have to run the following commands in your terminal
 
 * Javascript - For DOM(Document Object Manipulation) scripts
 * HTML - For building Mark Up pages/User Interface
-* CSS - For Styling User Interface
-* SCSS
+* SCSS - For Styling User Interface
 * Bootstrap
-* Json-server - For fetch product
 
 
 ## License
