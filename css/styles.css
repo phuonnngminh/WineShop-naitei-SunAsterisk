@@ -422,7 +422,7 @@ html {
   border-radius: 50%;
 }
 .reviewer-wp:after {
-  content: url(../../images/icon-quote-light.png);
+  content: url(../images/icon-quote-light.png);
   position: absolute;
   top: 31px;
   left: 50%;
